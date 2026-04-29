@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CSS Selectors</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Селектори CSS</h1>
+    <article class="article-1">
+      <h2>Тип: Селектор тегу</h2>
+      <div class="example-1">div</div>
+      <div class="tex-example">Застосовується до всіх тегів div, вага 1 (0-0-1)</div>
+    </article>
+
+    <article class="article-2">
+      <h2>Тип: Селектор класу</h2>
+      <div class="example-2">.colored</div>
+      <div class="tex-example">Застосовується до елементів з класом colored, вага 10 (0-1-0)</div>
+    </article>
+
+    <article class="article-3">
+      <h2>Тип: Селектор id</h2>
+      <div class="example-3">#unique</div>
+      <div class="tex-example">Застосовується до елемента з id="unique", вага 100 (1-0-0)</div>
+    </article>
+
+    <article class="article-4">
+      <h2>Тип: Селектор атрибуту</h2>
+      <div class="example-4">[data-color]</div>
+      <div class="tex-example">Застосовується до елементів з атрибутом [data-color], вага 10 (0-1-0)</div>
+    </article>
+
+    <article class="article-5">
+      <h2> Тип: Вкладений селектор</h2>
+      <div class="example-5"> div p</div>
+      <div class="tex-example">
+        Застосовується до тегів p, вкладених у div, вага 2 (0-0-2)
+      </div>
+    </article>
+
+    <article class="article-6">
+      <h2>Тип: Дочірній селектор </h2>
+      <div class="example-6"> div > p</div>
+      <div class="tex-example">
+        Застосовується до тегів p, прямих нащадків div, вага 2 (0-0-2)
+      </div>
+    </article>
+
+    <article class="article-7">
+      <h2>Тип: Послідовність селекторів </h2>
+      <div class="example-7"> h2.colored</div>
+      <div class="tex-example">Застосовується до тегу h2 з класом colored, вага 11 (0-1-1)</div>
+    </article>
+
+    <article class="article-8">
+      <h2>Тип: Комбінація тег+клас+атрибут </h2>
+      <div class="example-8"> div.box[data-demo]</div>
+      <div class="tex-example">Застосовується до div з класом box та атрибутом data-demo, вага 21 (0-2-1)</div>
+    </article>
+
+    <article class="article-9">
+      <h2>Тип: Комбінація id+клас </h2>
+      <div class="example-9"> #special.colored</div>
+      <div class="tex-example">Застосовується до елемента з id="special" та класом colored, вага 110 (1-1-0)</div>
+    </article>
+
+    <article class="article-10">
+      <h2>Тип: Суміш всіх селекторів </h2>
+      <div class="example-10"> body div#main.box[data-final]</div>
+      <div class="tex-example">Застосовується до div всередині body з id="main", класом box та атрибутом data-final,
+        вага 122 (1-2-2)</div>
+    </article>
+  </div>
+</body>
+
+</html>
