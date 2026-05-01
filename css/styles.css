@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f2f0e8;
+}
+
+.mondrian {
+  width: min(90vmin, 421px);
+  aspect-ratio: 421 / 414;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #050505;
+}
+
+.mondrian td {
+  padding: 0;
+  border: 6px solid #050505;
+  font-size: 0;
+  line-height: 0;
+  empty-cells: show;
+}
+
+.c1 {
+  width: 11.40%;
+}
+
+.c2 {
+  width: 12.83%;
+}
+
+.c3 {
+  width: 13.06%;
+}
+
+.c4 {
+  width: 25.18%;
+}
+
+.c5 {
+  width: 15.91%;
+}
+
+.c6 {
+  width: 15.91%;
+}
+
+.c7 {
+  width: 5.70%;
+}
+
+.r1 {
+  height: 11.84%;
+}
+
+.r2 {
+  height: 25.12%;
+}
+
+.r3 {
+  height: 25.36%;
+}
+
+.r4 {
+  height: 12.80%;
+}
+
+.r5 {
+  height: 12.56%;
+}
+
+.r6 {
+  height: 7.00%;
+}
+
+.r7 {
+  height: 5.31%;
+}
+
+.white {
+  background: #fbfaf4;
+}
+
+.red {
+  background: #f21412;
+}
+
+.yellow {
+  background: #ffd91a;
+}
+
+.blue {
+  background: #1408b7;
+}
+
+.black {
+  background: #050505;
+}

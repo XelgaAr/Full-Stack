@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+table {
+    /* ширина таблиці: wt = 75% */
+    width: 75%;
+    /* центрування таблиці по горизонталі (червоні стрілки по боках) */
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    /* ширина клітинок: wall = 33.33% */
+    width: 33.33%;
+    /* висота всіх клітинок: hall = 50px */
+    height: 50px;
+    color: #333333;
+}
+
+/* Вирівнювання тексту по верхньому краю для великих клітинок, як на макеті */
+.align-top {
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+/* висота вказаної клітинки: h56 = 200px */
+.cell-5-6 {
+    height: 200px;
+}
